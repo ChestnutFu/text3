@@ -1,0 +1,58 @@
+body,div,p{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 20px;
+	font-size: 1em;
+	font-family: "Microsoft YaHei";
+	line-height: 20px;
+}
+#box{
+	position: relative;
+	border: 1px solid #999;
+	background-color: #eee;
+	padding: 20px;
+	overflow: hidden;
+	zoom:1;
+}
+#left{
+	width: 158px;
+	float: left;
+	border: 1px solid #999;
+	background-color: white;
+	padding: 20px;
+}
+#center{
+	border: 1px solid #999;
+	background-color: white;
+	display: block;
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+}
+#center p{
+	margin: 5px 0;
+}
+#right{
+	width: 78px;
+	border: 1px solid #999;
+	background-color: white;
+	text-align: center;
+	float: right;
+	padding: 20px 20px 0 20px;
+}
+.icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+}
+#right .icon{
+	margin-bottom: 20px;
+}
+#left-icon{
+	float: left;
+}
+#left-name{
+	float: right;
+}
